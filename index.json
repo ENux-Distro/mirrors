@@ -1,10 +1,6 @@
 {
-  "packages": [
-    {
-      "name": "epkgfetch",
-      "version": "1.0_1",
-      "file": "epkgfetch-1.0_1.epkg",
-      "deps": []
-    }
-  ]
+  "epkgfetch": {
+    "version": "1.0_1",
+    "filename": "epkgfetch-1.0_1.epkg"
+  },
 }
