@@ -1,0 +1,15 @@
+echo "-------------------------"
+echo "Welcome to ENux Finalizer"
+echo "-------------------------"
+echo
+echo "Sit back and relax, as the ENux Finalizer does everything"
+
+sudo brl fetch alpine --mirror https://dl-cdn.alpinelinux.org/alpine/ || true
+sudo brl fetch void --mirror https://repo-default.voidlinux.org || true
+sudo brl fetch arch --mirror https://fastly.mirror.pkgbuild.com/ || true
+sudo brl fetch centos || true
+sudo brl fetch gentoo --mirror https://gentoo.osuosl.org/ || true
+sudo brl fetch opensuse || true
+yes | sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --daemon
+
+echo "You are ready to use ENux now"
