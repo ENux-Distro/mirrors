@@ -8,4 +8,3 @@ sleep 2
 yes | "Not reversible!" | bash /tmp/bedrock-install.sh --hijack
 echo "Hijack complete."
 rm /tmp/bedrock-install.sh
-deluser ENux
