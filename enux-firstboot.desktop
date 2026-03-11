@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ENux Welcomer
+Exec=bash /usr/bin/enux-firstboot
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Comment=Runs ENux Welcomer on first login
+Terminal=false
