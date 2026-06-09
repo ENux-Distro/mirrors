@@ -1,8 +1,9 @@
 #!/bin/bash
-
+     
 echo "Bedrock Linux Hijack starting..."
 wget https://github.com/bedrocklinux/bedrocklinux-userland/releases/download/0.7.31/bedrock-linux-0.7.31-x86_64.sh  -O /tmp/bedrock-install.sh
 chmod +x /tmp/bedrock-install.sh
-yes "Not reversible!" | bash /tmp/bedrock-install.sh --hijack
+yes "Not reversible!" 2>/dev/null | bash /tmp/bedrock-install.sh --hijack
 echo "Hijack complete."
 rm /tmp/bedrock-install.sh
+
